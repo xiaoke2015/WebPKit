@@ -1,7 +1,7 @@
 //
 //  CGImage+WebPDecoding.swift
 //
-//  Copyright 2020 Timothy Oliver. All rights reserved.
+//  Copyright 2020 https://github.com/xiaoke2015/WebPKit.git. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to
