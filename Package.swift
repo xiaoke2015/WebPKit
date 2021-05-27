@@ -19,10 +19,14 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "WebPKit",
-            dependencies: ["libwebp"]),
+            dependencies: ["libwebp"],
+            path: "Sources"),
         .testTarget(
             name: "WebPKitTests",
             dependencies: ["WebPKit","libwebp"]),
+    ],
+    swiftLanguageVersions: [
+        .v5
     ]
 )
 
